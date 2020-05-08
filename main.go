@@ -18,7 +18,7 @@ var (
 func main() {
 	i := 1
 	for i <= 100000 {
-		time.Sleep(1 * time.Millisecond)
+//		time.Sleep(1 * time.Millisecond)
 		rand.Seed(time.Now().UnixNano())
 		minSpecialChar := 1
 		minNum := 1
