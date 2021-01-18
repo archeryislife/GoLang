@@ -27,9 +27,9 @@ func main() {
 		passwordLength := 60
 		password := GeneratePassword(passwordLength, minSpecialChar, minNum, minUpperCase, minLowerCase)
 		//Uncomment next line for DLP tracking tag
-		//const dlp = "ENTER DLP STRING HERE"
+		const dlp = "ENTER DLP STRING HERE"
 		//Make next line fmt.Println(dlp + password)
-		fmt.Println(password)
+		fmt.Println(dlp + password)
 		i++
 	}
 }
