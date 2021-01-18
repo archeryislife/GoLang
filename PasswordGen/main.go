@@ -28,7 +28,7 @@ func main() {
 		password := GeneratePassword(passwordLength, minSpecialChar, minNum, minUpperCase, minLowerCase)
 		//Uncomment next line for DLP tracking tag
 		const dlp = "ENTER DLP STRING HERE"
-		//Make next line fmt.Println(dlp + password)//
+		//Make next line fmt.Println(dlp + password)//Test Commit
 		fmt.Println(dlp + password)
 		i++
 	}
